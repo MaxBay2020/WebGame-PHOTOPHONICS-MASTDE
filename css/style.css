@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color:#fff;
+    display: flex;
+    justify-content:center;
+    flex-display: column;
+    align-items: center;
+    font-family: "Arial";
+    min-height:100px;
+    margin:0
+}
+
+.container{
+    width:800px;
+    height:600px;
+    border-radius: 5px;
+    background-size:cover;
+    position:relative;
+}
+
+/*Level 1*/
+.moon{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    position:absolute;
+    top:45px;
+    right: 178px;
+}
+
+.moth{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    position:absolute;
+    top:290px;
+    right: 340px;
+}
+
+.muffin{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    position:absolute;
+    top:455px;
+    right: 380px;
+}
+
+.maple_leaf{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    position:absolute;
+    top:220px;
+    right: 0px;
+}
+.marshmallow{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    position:absolute;
+    top:160px;
+    left: 290px;
+}
+
+
+/*Level 2*/
+.apple{
+    /*border: 3px solid red;*/
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+    position:absolute;
+    top:10px;
+    left: 240px;
+}
+.ants{
+    /*border: 3px solid red;*/
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position:absolute;
+    top:290px;
+    right: 90px;
+}
+.arrow{
+    /*border: 3px solid red;*/
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    position:absolute;
+    top:90px;
+    right: 25px;
+}
+
+/*Leve 3*/
+.slide{
+    /*border: 3px solid red;*/
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    position:absolute;
+    top:120px;
+    right: 100px;
+}
+.sand{
+    /*border: 3px solid red;*/
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    position:absolute;
+    top:280px;
+    right: 320px;
+}
+.swing{
+    /*border: 3px solid red;*/
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    position:absolute;
+    top:65px;
+    left: 305px;
+}
+.seesaw{
+    /*border: 3px solid red;*/
+    width: 140px;
+    height: 140px;
+    border-radius:50%;
+    position:absolute;
+    bottom:15px;
+    left: 75px;
+}
+
+/*Level 4*/
+.turtle{
+    /*border: 3px solid red;*/
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    position:absolute;
+    top:250px;
+    right: 100px;
+}
+.tea{
+    /*border: 3px solid red;*/
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    position:absolute;
+    top:140px;
+    right: 340px;
+}
+.teddy_bear{
+    /*border: 3px solid red;*/
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    position:absolute;
+    top:120px;
+    right: 258px;
+}
+
+/*Level 5*/
+.daisies{
+    /*border: 3px solid red;*/
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    position:absolute;
+    top:310px;
+    left: 90px;
+}
+
+.dafodils{
+    /*border: 3px solid red;*/
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+    position:absolute;
+    top:190px;
+    right: 280px;
+}
+.dog{
+    /*border: 3px solid red;*/
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    position:absolute;
+    bottom:50px;
+    right: 270px;
+}
+.digging{
+    /*border: 3px solid red;*/
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+    position:absolute;
+    bottom:120px;
+    left: 310px;
+}
+/*Level 6*/
+.egg{
+    /*border: 3px solid red;*/
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    position:absolute;
+    top:248px;
+    right: 83px;
+}
+.entrance{
+    /*border: 3px solid red;*/
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+    position:absolute;
+    top:160px;
+    left: 120px;
+}
+.elephant{
+    /*border: 3px solid red;*/
+    width: 130px;
+    height: 130px;
+    border-radius:50%;
+    position:absolute;
+    bottom:0px;
+    right: 80px;
+}
+
+/*Level 7*/
+.ship{
+    /*border: 3px solid red;*/
+    width: 130px;
+    height: 130px;
+    border-radius:50%;
+    position:absolute;
+    bottom:40px;
+    left: 310px;
+}
+.shark{
+    /*border: 3px solid red;*/
+    width: 130px;
+    height: 130px;
+    border-radius:50%;
+    position:absolute;
+    bottom:40px;
+    right: 160px;
+}
+.shells1{
+    /*border: 3px solid red;*/
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    position:absolute;
+    bottom:180px;
+    left: 132px;
+}
+.shells2{
+    /*border: 3px solid red;*/
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    position:absolute;
+    top:226px;
+    right: 178px;
+}
+.shells3{
+    /*border: 3px solid red;*/
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    position:absolute;
+    top:235px;
+    right: 0px;
+}
+.shovel{
+    /*border: 3px solid red;*/
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    position:absolute;
+    top:265px;
+    left: 345px;
+}
+
+
+/*Helper*/
+.help1, .help2, .help3, .help4, .help5, .help6, .help7{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    top:10px;
+    right: 10px;
+}
+
+/*image tag*/
+#image1{
+    display: inline-block;
+}
+#image2{
+    display: none;
+}
+#image3{
+    display: none;
+}
+#image4{
+    display: none;
+}
+#image5{
+    display: none;
+}
+#image6{
+    display: none;
+}
+#image7{
+    display: none;
+}
+
